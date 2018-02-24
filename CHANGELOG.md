@@ -15,9 +15,10 @@
 
 
 ### Bugfixes
-- Resolve console.warning() is not a function (when drawing SIDs), by removing the -ing (https://github.com/openscope/openscope/issues/864)
+- Resolve console.warning() is not a function (when drawing SIDs), by removing the -ing [#864](https://github.com/openscope/openscope/issues/864)
 - Restore functionality of non-procedural descents to airspace ceiling [#879](https://github.com/openscope/openscope/issues/879)
 - Ensure number-type variables defined in spawn patterns are cast to numbers if provided as strings [#895](https://github.com/openscope/openscope/issues/895)
+- Fix improper merging of routes when divergent waypoint is not in the middle of the leg [#899](https://github.com/openscope/openscope/issues/899)
 
 
 
