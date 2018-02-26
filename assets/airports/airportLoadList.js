@@ -623,6 +623,14 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         //     name: 'Shanghai Pudong International Airport',
         //     premium: false,
         //     wip: true
+        // },
+        // {
+        //     icao: "cyyz"
+        //     lev: 'medium',
+        //     name: 'Toronto Pearson International Airport',
+        //     premium: false,
+        //     wip: true
+        //
         }
     ];
 })();
